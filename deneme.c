@@ -1,17 +1,10 @@
-#include<stdio.h>
-#include<dirent.h>
+#include <stdio.h>
 
-int main(){
-    DIR *d;
-    struct dirent *dir;
-    d = opendir("files");
-    if (d)
-    {
-        while ((dir = readdir(d)) != NULL)
-        {
-            printf("%s\n", dir->d_name);
-        }
-        closedir(d);
-    }
-    return(0);
+int main() {
+    int var =100;
+    char int_str[20];
+
+    sprintf(int_str, "%d", var);
+    printf("Var: %s", int_str);
+    return 0;
 }
