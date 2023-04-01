@@ -4,11 +4,11 @@ This was an assignment which aims to help you practice the hash tables, especial
 
 This program is able to:
 
--read all the emails in a specified folder
+- read all the emails in a specified folder
 
--search for an email by its ID and sender's name
+- search for an email by its ID and sender's name
 
--print out the hash table.
+- print out the hash table.
 
  ### Input ###
 ![Format of the input](./input.png)
